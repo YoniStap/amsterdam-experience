@@ -21,3 +21,4 @@ $(document).ready(function(){
         $("#myCarousel").carousel(2);
     });
 });
+
