@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Amsterdam Quiz</title>
+        <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+
+  <body>
+
+    <div id="quizzie">
+  <h1>What do you know about Amsterdam?</h1>
+    <ul class="quiz-step step1 current">
+        <li class="question">
+            <div class="question-wrap">
+            <h2>Question #1: What is the name of this place?</h2>
+                <img src="img/rijksmuseum.jpg" alt="Mountain View" style="width:304px;height:228px;">
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap"> 
+                <p class="answer-text">Rijksmuseum</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap"> 
+                <p class="answer-text">Van Gogh museum</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step2">
+        <li class="question">
+            <div class="question-wrap">
+                <p>Question #2: How many nationalities are there in Amsterdam?</p>
+            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap"> 
+                <p class="answer-text">90</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">180</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step3">
+        <li class="question">
+           <h2>Question #3: How many canals are there in Amsterdam?</h2>
+                <img src="img/canal_tour.jpg" alt="Mountain View" style="width:304px;height:228px;">
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">Less than 100</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">More than 100</p>
+            </div>
+        </li>
+    </ul>
+    <ul class="quiz-step step4">
+        <li class="question">
+            <div class="question-wrap">
+                <h2>Question #4: How many bicycles end up in the canals each year?</h2>
+                <img src="img/canal_cleaning.jpg" alt="Mountain View" style="width:304px;height:228px;">            </div>
+        </li>
+        <li class="quiz-answer low-value" data-quizIndex="2">
+            <div class="answer-wrap">
+                <p class="answer-text">10.000</p>
+            </div>
+        </li>
+        <li class="quiz-answer high-value" data-quizIndex="4">
+            <div class="answer-wrap">
+                <p class="answer-text">25.000</p>
+            </div>
+        </li>
+    </ul>
+    <ul id="results">
+        <li class="results-inner">
+            <p>Your result is:</p>
+            <h1></h1>
+            <p class="desc"></p>
+        </li>
+    </ul>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
