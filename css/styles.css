@@ -92,3 +92,58 @@ H3 {
     margin-left: 75px;
     
 }
+
+#map {
+    
+    width: 584px;
+    height: 584px;
+    background-color: red;
+    margin-top: 30px;   
+}
+
+/* Contactpage form styles */
+
+input {
+    
+    width: 400px;
+    height: 35px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    color: #468EEC;
+    font-size: 20px;
+    font-family: 'Lato';
+    
+}
+
+button {
+    
+    border-width: 1px;
+    border-color: #468EEC; 
+    padding: 10px 20px;
+    background-color: #468EEC;
+    color: white;
+    font-family: 'Lato';
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+button:hover {
+    
+    border-width: 1px;
+    border-color: #2177E8; 
+    padding: 10px 20px;
+    background-color: #2177E8;
+    color: white;
+    font-family: 'Lato';
+    font-size: 15px;
+    border-radius: 5px; 
+}
+
+#message {
+    
+    height: 200px;
+}
