@@ -147,3 +147,37 @@ button:hover {
     
     height: 200px;
 }
+
+/* Footer */
+
+footer {
+    
+    height: 180px;
+    background-color: #468EEC;
+    clear: both;
+    color: white;
+    bottom: 0;
+    padding-top: 30px;
+    
+    text-align: center;
+    width: 100%;
+    
+}
+
+#footerheader{
+    
+    width: 600px;
+    margin: 0 auto;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-left-radius: 1px;
+    margin-bottom: 20px;
+}
+
+#contact {  
+    
+    margin-bottom: 60px;
+    width: 400px;
+       
+}
