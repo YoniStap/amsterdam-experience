@@ -50,3 +50,45 @@ nav a:visited {
     font-weight: bold;
     color: white;
 }
+
+/* Text styles */
+
+H1 {
+    
+    color: #BF213E;
+}
+
+H2 {
+    
+    color: #468EEC;
+}
+
+H3 {
+    
+    color: #468EEC;
+    font-weight: 100;
+}
+
+/* Contactpage main content */
+
+#page-image {
+    
+    z-index: -1;
+    position: relative;
+    max-width: 100%;
+}
+
+#content {
+    
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.contentblock {
+    
+    width: 450px;
+    float: left;
+    margin-right: 75px;
+    margin-left: 75px;
+    
+}
